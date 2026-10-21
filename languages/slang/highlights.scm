@@ -230,6 +230,14 @@
   .
   (qualifiers) @variable)
 
+(translation_unit
+  (labeled_statement
+    label: (statement_identifier) @variable))
+
+(declaration_list
+  (labeled_statement
+    label: (statement_identifier) @variable))
+
 ;; Attributes
 (hlsl_attribute
   (identifier) @attribute)
